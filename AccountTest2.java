@@ -5,7 +5,7 @@ public class AccountTest2 {
         Scanner input = new Scanner(System.in);
        System.out.println(" Bank rekening");
        SavingAccount2 account = new SavingAccount2();
-       account.name = "Zhafir";
+       account.name = "Rama";
          account.balance = 1000;
          account.interestRate = 0.05;// 5% per tahun
 
@@ -17,7 +17,7 @@ account.calcInterest();//tambahkan  bunga
 System.out.println();
 
 SavingAccount2 account1 = new SavingAccount2();
-account1.name = "Habib";
+account1.name = "Hisyam";
 account1.balance = 2000;
 account1.interestRate = 0.03; // 3% per tahun
 
